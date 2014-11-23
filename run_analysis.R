@@ -5,7 +5,7 @@ run_analysis <- function () {
         
         
         # load all necessary files names and paths
-        all.files <- list.files("C:\\Users\\Automation\\Documents\\R\\Dataset", full.names = TRUE, recursive = TRUE)  
+        all.files <- list.files("C:\\Users\\Automation\\Documents\\R\\Class 3\\Course Project\\class3_CourseProject\\UCI HAR Dataset", full.names = TRUE, recursive = TRUE)  
         test.and.train.files <- all.files[-grep("Inertial|README|features_info", all.files)]
         test.files <- test.and.train.files[-grep("test|labels|features", test.and.train.files)]
         train.files <- test.and.train.files[-grep("train|labels|features", test.and.train.files)]
