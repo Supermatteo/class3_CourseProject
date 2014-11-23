@@ -2,7 +2,7 @@ This is the readme file for the Getting and Cleaning data course project.
 
 The scope of the project is to create a tidy dataset, and r script a codebook and a readme.txt file, and to commit them in a repository on Github.
 
-There are 4 files in the repository:
+There are 3 files in the repository:
 + redame.txt
 
 + codebook.txt
@@ -25,7 +25,7 @@ Q4	- rename variables
 Q5	- applied mean with dcast to calculate the average of each activity for each data for a total of 180 lines (30 subjects for 6 activities)
 	- write output file with write.table()
 
-	
+
 	
 Notes:
 a) For writing the script I made extensive use of several forums, mostly the class's and stackoverflow's forums. 
