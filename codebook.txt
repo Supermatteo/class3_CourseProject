@@ -1,0 +1,8 @@
+This is the code book file for the Getting and Cleaning data course project.
+
+The dataset is mainly composed by accelerometer and gyroscope data harvested from a cellphone (Galaxy III) from different activities performed by 30 subjects. The dataset is divided into 2 subsetsets: train (21 subjects) and the test(9 subjects). 
+Each subset contains the raw acquired data as well as sampled and processed data with noise filter, and with gravity decomposed.
+
+The frequency and time domain data, was merged into a single data frame including all the subject accelerometer and gyroscopes data, which were associated on the same row to the relative activity and subject. The number associated with the different activities was replaced by the  variables name was then modified for readibility. Finally "melt" was used to create a long form tidy data and "mean" was applied with dcast to take the average of each variable datapoint for each subject and each activity.
+
+Finally write.table was used to output a data file. 
